@@ -21,27 +21,27 @@ div.dataTables_paginate {
 	margin: 0;
 }
 
-table.table {
+table.dataTable {
 	clear: both;
 	margin-bottom: 6px !important;
 	max-width: none !important;
 }
 
-table.table thead .sorting,
-table.table thead .sorting_asc,
-table.table thead .sorting_desc,
-table.table thead .sorting_asc_disabled,
-table.table thead .sorting_desc_disabled {
+table.dataTable thead .sorting,
+table.dataTable thead .sorting_asc,
+table.dataTable thead .sorting_desc,
+table.dataTable thead .sorting_asc_disabled,
+table.dataTable thead .sorting_desc_disabled {
 	cursor: pointer;
 	*cursor: hand;
 }
 
-table.table thead .sorting { background: url('images/sort_both.png') no-repeat center right; }
-table.table thead .sorting_asc { background: url('images/sort_asc.png') no-repeat center right; }
-table.table thead .sorting_desc { background: url('images/sort_desc.png') no-repeat center right; }
+table.dataTable thead .sorting { background: url('dataTables/sort_both.png') no-repeat center right; }
+table.dataTable thead .sorting_asc { background: url('dataTables/sort_asc.png') no-repeat center right; }
+table.dataTable thead .sorting_desc { background: url('dataTables/sort_desc.png') no-repeat center right; }
 
-table.table thead .sorting_asc_disabled { background: url('images/sort_asc_disabled.png') no-repeat center right; }
-table.table thead .sorting_desc_disabled { background: url('images/sort_desc_disabled.png') no-repeat center right; }
+table.dataTable thead .sorting_asc_disabled { background: url('dataTables/sort_asc_disabled.png') no-repeat center right; }
+table.dataTable thead .sorting_desc_disabled { background: url('dataTables/sort_desc_disabled.png') no-repeat center right; }
 
 table.dataTable th:active {
 	outline: none;
@@ -80,14 +80,14 @@ div.dataTables_scrollFoot table {
 /*
  * TableTools styles
  */
-.table tbody tr.active td,
-.table tbody tr.active th {
+.dataTable tbody tr.active td,
+.dataTable tbody tr.active th {
 	background-color: #08C;
 	color: white;
 }
 
-.table tbody tr.active:hover td,
-.table tbody tr.active:hover th {
+.dataTable tbody tr.active:hover td,
+.dataTable tbody tr.active:hover th {
 	background-color: #0075b0 !important;
 }
 
